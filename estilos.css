@@ -9,11 +9,12 @@
 }
 
 body{
-	background-image: url(images/fondo.jpg);
+	/* background-image: url(images/fondo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: center; */
+	background-color: #DFEAC1;
 }
 
 div#contenedor{
