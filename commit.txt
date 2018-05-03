@@ -1,0 +1,29 @@
+commit 45f3c1b859ae9b7aa65d947cfc8e7548d7d9add2
+Author: Dan <dan@studio-8.co>
+Date:   Thu May 3 15:44:07 2018 -0500
+
+    Ultimo cambio
+
+commit d34132b2a90ba955725c296b0d522dfce94f7587
+Author: Dan <dan@studio-8.co>
+Date:   Thu May 3 09:06:16 2018 -0500
+
+    Se cambiaron los estilos del nav
+
+commit 40e694dd1b16d11c831be354c20b51f0034a1f27
+Author: Dan <dan@studio-8.co>
+Date:   Thu May 3 08:41:43 2018 -0500
+
+    Se movio la posicion absoluta del boxOverlay
+
+commit c7cd1637dfa24d4cd2339d0701081d8736aa0310
+Author: Dan <dan@studio-8.co>
+Date:   Thu May 3 08:34:44 2018 -0500
+
+    Agregue un parrafo al overlay
+
+commit 4fe01352a46609859005415a646e4ac35eedcd63
+Author: Dan <dan@studio-8.co>
+Date:   Thu May 3 08:24:02 2018 -0500
+
+    Inicio del Proyecto

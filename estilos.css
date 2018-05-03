@@ -26,7 +26,7 @@ div#contenedor{
 nav{
 	width: 1024px;
 	height: 50px;
-	background-color: #555555;
+	background-color: #52320a;
 }
 header{
 	width: 1024px;
@@ -96,7 +96,7 @@ nav li{
 	
 }
 nav a{
-	color: #bae68b;
+	color: #e6bd8b;
 	text-decoration: none;
 }
 nav a:hover{
