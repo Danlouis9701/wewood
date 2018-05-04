@@ -1,6 +1,5 @@
-@charset "UTF-8";
-/* CSS Document */
-
+@import "variables";
+@import "nav";
 /* Resete del Navegador */
 *{
 	margin: 0;
@@ -18,57 +17,54 @@ body{
 }
 
 div#contenedor{
-	width: 1024px;
+	width: $ancho;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgba(255,255,255,0.50);
 }
-nav{
-	width: 1024px;
-	height: 50px;
-	background-color: #52320a;
-}
+
 header{
-	width: 1024px;
+	width: $ancho;
 	height: 426px;
-	background-image: url(images/header_background.png);
+	background-image: url(../images/header_background.png);
 	position: relative;
+	#overlay{
+		width: 340px;
+		height: 160px;
+		color: white;
+		position: absolute;
+		top: 250px;
+		left: 250px;
+		background-color: rgba(0,0,0,0.74);
+		border-radius: 20px;
+	}
+
 }
 
-div#overlay{
-	width: 340px;
-	height: 160px;
-	color: white;
-	position: absolute;
-	top: 250px;
-	left: 250px;
-	background-color: rgba(0,0,0,0.74);
-	border-radius: 20px;
-}
 
 section#relojes{
-	width: 1024px;
+	width: $ancho;
 	height: 320px;
 
 }
 section#ubicacion{
-	width: 1024px;
+	width: $ancho;
 	height: 330px;
 
 }
 section#clientes{
-	width: 1024px;
+	width: $ancho;
 	height: 330px;
 	padding-top: 20px;
 }
 section#contacto{
-	width: 1024px;
+	width: $ancho;
 	height: 260px;
 	background-color: black;
 }
 footer{
-	width:1024px;
+	width: $ancho;
 	height: 75px;
 	background-color: #18230a;
 }
@@ -82,27 +78,6 @@ h1{
 	padding-left: 20px;
 	text-transform: uppercase;
 	float: left; /* Sirve para alinear el selector a la izquierda */
-}
-nav ul{
-	float: right;
-	margin-top: 20px;
-	margin-right: 15px;
-}
-nav li{
-	display: inline;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-weight: 100;
-	font-size: 18px;
-	margin-left: 10px;
-	
-}
-nav a{
-	color: #e6bd8b;
-	text-decoration: none;
-}
-nav a:hover{
-	font-size: 17px;
-	color: #C75819;
 }
 
 div.cajaRelojes{
@@ -198,7 +173,7 @@ div.cajaClientes img{
 div.burbuja{
 	width: 366px;
 	height: 210px;
-	background-image: url(images/bubble.png);
+	background-image: url(../images/bubble.png);
 	margin-left: 125px;
 	margin-top: 30px;
 }

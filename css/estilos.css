@@ -1,4 +1,24 @@
-/* CSS Document */
+nav {
+  width: 1024px;
+  height: 50px;
+  background-color: #52320a; }
+  nav ul {
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px; }
+    nav ul li {
+      display: inline;
+      font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+      font-weight: 100;
+      font-size: 18px;
+      margin-left: 10px; }
+  nav a {
+    color: #e6bd8b;
+    text-decoration: none; }
+  nav a:hover {
+    font-size: 17px;
+    color: #C75819; }
+
 /* Resete del Navegador */
 * {
   margin: 0;
@@ -20,26 +40,20 @@ div#contenedor {
   margin-right: auto;
   background-color: rgba(255, 255, 255, 0.5); }
 
-nav {
-  width: 1024px;
-  height: 50px;
-  background-color: #52320a; }
-
 header {
   width: 1024px;
   height: 426px;
-  background-image: url(images/header_background.png);
+  background-image: url(../images/header_background.png);
   position: relative; }
-
-div#overlay {
-  width: 340px;
-  height: 160px;
-  color: white;
-  position: absolute;
-  top: 250px;
-  left: 250px;
-  background-color: rgba(0, 0, 0, 0.74);
-  border-radius: 20px; }
+  header #overlay {
+    width: 340px;
+    height: 160px;
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    background-color: rgba(0, 0, 0, 0.74);
+    border-radius: 20px; }
 
 section#relojes {
   width: 1024px;
@@ -74,26 +88,6 @@ h1 {
   text-transform: uppercase;
   float: left;
   /* Sirve para alinear el selector a la izquierda */ }
-
-nav ul {
-  float: right;
-  margin-top: 20px;
-  margin-right: 15px; }
-
-nav li {
-  display: inline;
-  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-  font-weight: 100;
-  font-size: 18px;
-  margin-left: 10px; }
-
-nav a {
-  color: #e6bd8b;
-  text-decoration: none; }
-
-nav a:hover {
-  font-size: 17px;
-  color: #C75819; }
 
 div.cajaRelojes {
   width: 341px;
@@ -183,7 +177,7 @@ div.cajaClientes img {
 div.burbuja {
   width: 366px;
   height: 210px;
-  background-image: url(images/bubble.png);
+  background-image: url(../images/bubble.png);
   margin-left: 125px;
   margin-top: 30px; }
 
