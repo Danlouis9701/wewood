@@ -39,7 +39,10 @@ header{
 		background-color: rgba(0,0,0,0.74);
 		border-radius: 20px;
 	}
+
 }
+
+
 section#relojes{
 	width: $ancho;
 	height: 320px;
@@ -51,6 +54,7 @@ section#relojes{
 		color: #464646;
 		padding: 40px;
 	}
+
 }
 section#ubicacion{
 	width: $ancho;
@@ -59,7 +63,7 @@ section#ubicacion{
 }
 section#clientes{
 	width: $ancho;
-	height: 330px;
+	height: 430px;
 	padding-top: 20px;
 }
 section#contacto{
