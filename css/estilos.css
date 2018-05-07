@@ -58,6 +58,13 @@ header {
 section#relojes {
   width: 1024px;
   height: 320px; }
+  section#relojes h2 {
+    width: 200px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-weight: 500;
+    font-size: 20px;
+    color: #464646;
+    padding: 40px; }
 
 section#ubicacion {
   width: 1024px;
@@ -93,14 +100,6 @@ div.cajaRelojes {
   width: 341px;
   height: 270px;
   float: left; }
-
-section#relojes h2 {
-  width: 200px;
-  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-  font-weight: 500;
-  font-size: 20px;
-  color: #464646;
-  padding-left: 20px; }
 
 div.cajaRelojes p {
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
